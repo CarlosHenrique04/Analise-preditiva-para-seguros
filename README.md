@@ -14,4 +14,6 @@ Regressão Linear: Um modelo simples que assume uma relação linear entre as va
 K-Nearest Neighbors (KNN): Um modelo baseado em instâncias que classifica os dados com base nas características dos vizinhos mais próximos.
 Avaliação do Modelo: A validação cruzada foi aplicada para avaliar o desempenho de cada modelo, e o RMSE foi calculado como uma medida de erro. Para melhor compreensão da eficácia dos modelos, a acurácia e a matriz de confusão foram calculadas, transformando as previsões contínuas em categorias binárias.
 
-Resultados: Os resultados são apresentados com a média do RMSE para cada modelo e a respectiva acurácia, além da visualização das matrizes de confusão para uma análise mais detalhada do desempenho.
+Resultados
+
+Os resultados são apresentados com a média do RMSE para cada modelo e a respectiva acurácia, além da visualização das matrizes de confusão para uma análise mais detalhada do desempenho.
