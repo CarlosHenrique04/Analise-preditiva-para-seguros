@@ -1,19 +1,29 @@
-Análise de Modelos de Regressão para Previsão de Despesas
+Análise de Modelos de Regressão
 
-Este repositório contém um projeto de análise de dados que aplica três modelos de regressão (Random Forest, Regressão Linear e K-Nearest Neighbors) para prever despesas com base em um conjunto de dados de custos. O objetivo principal é avaliar a eficácia de cada modelo utilizando métricas de erro, como o RMSE (Root Mean Squared Error), e calcular a acurácia e a matriz de confusão.
+Este repositório contém uma análise abrangente de modelos de regressão para prever despesas de saúde com base em características demográficas e socioeconômicas. Utilizando bibliotecas populares de Python como pandas, numpy, scikit-learn, e matplotlib, este projeto se concentra em três algoritmos de aprendizado de máquina: Regressão Linear, Random Forest e K-Nearest Neighbors (KNN).
 
-Metodologia
+Objetivos do Projeto
 
-Preparação dos Dados: 
-Os dados foram carregados e preparados, incluindo a separação em conjuntos de treinamento e teste. As variáveis de entrada e saída foram definidas, e a normalização foi aplicada conforme necessário.
+Previsão de Despesas: O objetivo principal é prever as despesas de saúde de indivíduos com base em dados disponíveis, utilizando técnicas de aprendizado de máquina.
 
-Modelagem: Foram utilizados três modelos de aprendizado de máquina:
+Avaliação de Modelos: Os modelos são avaliados utilizando métricas de desempenho, incluindo RMSE (Root Mean Squared Error) e acurácia, para determinar sua eficácia.
 
-Random Forest: Um modelo de ensemble que utiliza múltiplas árvores de decisão para melhorar a precisão e controlar o overfitting.
-Regressão Linear: Um modelo simples que assume uma relação linear entre as variáveis independentes e dependentes.
-K-Nearest Neighbors (KNN): Um modelo baseado em instâncias que classifica os dados com base nas características dos vizinhos mais próximos.
-Avaliação do Modelo: A validação cruzada foi aplicada para avaliar o desempenho de cada modelo, e o RMSE foi calculado como uma medida de erro. Para melhor compreensão da eficácia dos modelos, a acurácia e a matriz de confusão foram calculadas, transformando as previsões contínuas em categorias binárias.
+Otimização de Hiperparâmetros: O projeto implementa uma busca em grade para otimizar hiperparâmetros do modelo Random Forest, visando melhorar o desempenho preditivo.
 
-Resultados
+Estrutura do Código
 
-Os resultados são apresentados com a média do RMSE para cada modelo e a respectiva acurácia, além da visualização das matrizes de confusão para uma análise mais detalhada do desempenho.
+Importação de Bibliotecas: Bibliotecas necessárias são importadas.
+
+Carregamento e Pré-processamento dos Dados: Os dados são carregados e pré-processados, incluindo a separação em conjuntos de treino e teste.
+
+Definição dos Modelos: Os modelos de Regressão Linear, Random Forest e KNN são definidos.
+
+Treinamento e Validação: Os modelos são treinados e validados utilizando validação cruzada e são calculadas as métricas de desempenho.
+
+Otimização de Hiperparâmetros: O modelo Random Forest é otimizado através de Grid Search.
+
+Avaliação Final: As previsões são feitas no conjunto de teste e as métricas de desempenho são apresentadas, incluindo RMSE e acurácia.
+
+Conclusão
+
+Este projeto fornece uma base sólida para entender como aplicar técnicas de aprendizado de máquina na previsão de despesas de saúde e avaliar a eficácia dos modelos utilizados. A análise das métricas de desempenho ajuda a identificar qual modelo oferece as melhores previsões e como ajustes podem melhorar os resultados.
